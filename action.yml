@@ -1,0 +1,12 @@
+name: 'Git History Analyzer and Code Quality Predictor'
+description: 'Analyzes git history to predict code quality issues and suggest improvements'
+inputs:
+  repo-taken:
+    description: 'he GITHUB_TOKEN secret'
+    required: true
+runs:
+  using: 'docker'
+  image: 'dockerfile'
+branding:
+  icon: 'git-branch'
+  color: 'blue'
